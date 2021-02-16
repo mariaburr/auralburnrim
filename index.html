@@ -8,16 +8,14 @@
     </style>
 
 </head>
-<body><div style="line-height:.6;width:100%">
-<div id="title" style="font-size:300%;line-height:.1;padding-top:3%"><center>AURAL<span style="color:rgb(177, 16, 16)">BURN</span>RIM</center></div>
-    <center><span style="font-size:65%;letter-spacing:40%">periodical poetry publication</span>
-    <div style="padding-top:2%;font-size:90%"><span onclick="ofClick()">of</span>    <span onclick="inClick()">in</span>    <span onclick="asClick()">as</span>    <span onclick="orClick()">or</span>    if</div></center></div>
-
-<div id="text" style="text-align:justify"></div>
+<body><div id="header"><div id="title">AURAL<span style="color:rgb(177, 16, 16)">BURN</span>RIM</div>
+    <center><span id="subtitle">periodical poetry publication</span>
+    <div id="menu"><span onclick="ofClick()">of</span> <span onclick="inClick()">in</span> <span onclick="asClick()">as</span> <span onclick="orClick()">or</span> if</div></center></div>
+<div id="text"></div>
 
 <script>
     function ofClick() {
-        document.getElementById("text").innerHTML = "Advance the art-form. Explore the far reaches of the poem. <br><br>Send submissions in .txt or .html format only (if the latter, accompanying .css and .js are welcome) to <a href=\"mailto:editor@auralburnrim.com\">editor@auralburnrim.com</a>.<br><br><br><br><br><br><br><br><br><br><br><br>";
+        document.getElementById("text").innerHTML = "Send submissions in .txt or .html format only (if the latter, accompanying .css and .js are welcome) to <a href=\"mailto:editor@auralburnrim.com\">editor@auralburnrim.com</a>";
     }    
     function inClick() {
         document.getElementById("text").innerHTML = "test";

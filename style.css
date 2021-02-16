@@ -14,8 +14,64 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-header {
+#header {
+    line-height: .4;
+    width: 100%;
     text-align: center;
+}
+
+#title {
+    font-size: 170%;
+    line-height: .1;
+    padding-top: 3%;
+}
+
+#subtitle {
+    font-size: 60%;
+    letter-spacing: 40%;
+}
+
+#menu {
+    padding-top:4%;
+    font-size:65%;
+    word-spacing:3ch
+}
+
+#text {
+    text-align:justify;
+    font-size:65%
+}
+
+@media only screen and (min-width: 768px) {
+    #header {
+        line-height: .6;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #title {
+        font-size: 300%;
+        line-height: .1;
+        padding-top: 3%;
+    }
+    
+    #subtitle {
+        font-size: 65%;
+        letter-spacing: 40%;
+    }
+    
+    #menu {
+        padding-top:2%;
+        font-size:80%;
+        word-spacing:4ch
+    }
+    
+    #text {
+        padding-top: 2%;
+        text-align: justify;
+        margin:0 200px;
+        font-size:80%
+    }
 }
 
 
