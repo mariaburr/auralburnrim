@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 
 #subtitle {
     opacity: 70%;
-    font-size: 50%;
+    font-size: 45%;
     letter-spacing: .3ch;
     padding-top: 1%;
 }
@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
 #menu {
     padding-top:1%;
     font-size:65%;
-    word-spacing:3ch
+    word-spacing:3ch;
 }
 
 #text {
@@ -62,6 +62,7 @@ body::-webkit-scrollbar {
     #subtitle {
         font-size: 65%;
         letter-spacing: .5ch;
+        padding-top: .5%;
     }
     
     #menu {
