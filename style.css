@@ -30,6 +30,7 @@ body::-webkit-scrollbar {
     opacity: 70%;
     font-size: 50%;
     letter-spacing: .3ch;
+    padding-top: 1%;
 }
 
 #menu {
@@ -72,7 +73,7 @@ body::-webkit-scrollbar {
     #text {
         padding-top: 2%;
         text-align: justify;
-        margin:0 220px;
+        margin:0 250px;
         font-size:80%
     }
 }
