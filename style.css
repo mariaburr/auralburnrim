@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
     }
     
     #title {
-        font-size: 300%;
+        font-size: 320%;
         line-height: .1;
         padding-top: 3%;
     }
@@ -72,7 +72,7 @@ body::-webkit-scrollbar {
     #text {
         padding-top: 2%;
         text-align: justify;
-        margin:0 200px;
+        margin:0 220px;
         font-size:80%
     }
 }
