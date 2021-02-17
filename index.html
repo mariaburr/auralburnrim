@@ -5,6 +5,13 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {white-space:pre-wrap}
+        td {
+            vertical-align:top;
+            padding-bottom:10px;
+        }
+        td.left {
+            text-align:right;
+        }
     </style>
 
 </head>
@@ -15,14 +22,26 @@
 
 <div id="of" style="visibility:hidden">Send submissions in txt or html format (if the latter, accompanying css, js, and image files are welcome) to <a href=\"mailto:editor@auralburnrim.com\">editor@auralburnrim.com</a></div>
 
+<div id="in" style="visibility:hidden"><table style="table-layout:fixed;margin: 0 5px;width:100%"><tr><td class="left">Holly Nahrgang: </td><td> <a class="hidden" href="nahrgang-deepbeatofblood.html">Deep beat of blood</a></td></tr>
+<tr><td class="left">Ashkelon al-Majdal: </td><td> <a class="hidden" href="almajdal-fromthelanguagecolony.html">From the language colony</a></td></tr>
+<tr><td class="left">Filomena Silva: </td><td> <a class="hidden" href="silva-adetachment.html">A detachment</a></td></tr>
+<tr><td class="left">Korfanty Stack: </td><td> <a class="hidden" href="stack-oldsalve.html">Old Salve</a></td></tr>
+<tr><td class="left">Ed Ney: </td><td> <a class="hidden" href="ney-asonewhoworkswithwoodandstone.html">As one who works with wood
+ and stone</a></td></tr>
+<tr><td class="left">Jenevive Lancia: </td><td> <a class="hidden" href="lancia-smallbeachhead.html">Small beachhead</a></td></tr>
+<tr><td class="left">Maria Burr Column: </td><td> <a class="hidden" href="column-fainintothedyingAge.html">fain into a dying Age</a></td></tr>
+</table></div>
+
+
 <script>
     function ofClick() {
         document.getElementById("text").innerHTML = document.getElementById("of").innerHTML;
     }    
     function inClick() {
-        document.getElementById("text").innerHTML = "test";
+        document.getElementById("text").innerHTML = document.getElementById("in").innerHTML;
     }    
     function asClick() {
+        document.getElementById("text").innerHTML = "";
 
     }    
     function orClick() {
